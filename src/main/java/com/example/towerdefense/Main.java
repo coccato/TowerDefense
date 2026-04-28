@@ -13,6 +13,7 @@ public class Main extends Application {
         double screenWidth = Screen.getPrimary().getBounds().getWidth();
         double screenHeight = Screen.getPrimary().getBounds().getHeight();
 
+        // ciao
         // Crea l'area di gioco (Pane)
         Pane gameArea = new Pane();
         gameArea.setPrefSize(screenWidth, screenHeight); // Imposta la dimensione dell'area di gioco a tutto lo schermo
