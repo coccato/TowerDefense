@@ -1,5 +1,7 @@
 package com.example.towerdefense;
 
+import javafx.scene.image.Image;
+
 public class Nemici {
     int lifept;
     int x;
@@ -7,13 +9,11 @@ public class Nemici {
     int speedX;
     int speedY;
 
-    public Nemici(int lifept, int x, int y) {
+    public Nemici(int lifept, int x, int y, Image img) {
 
         this.lifept=lifept;
         this.x=x;
         this.y = y;
-
-
         if(lifept<70){
             speedX=3;
             speedY=3;
