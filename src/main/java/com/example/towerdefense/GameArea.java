@@ -9,6 +9,7 @@ public class GameArea extends Pane {
         setPrefSize(width, height);  // Usa le dimensioni passate come parametri
     }
 
+
     // Puoi aggiungere metodi per gestire l'area di gioco, come per esempio:
     // - Adattamento dinamico degli oggetti
     // - Gestione di eventi
